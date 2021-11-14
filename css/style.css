@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    position:fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 50px;
+    border-radius: 50%;
+}
+#images{
+width: 100%;
+height: 450px;
+animation: Changeimg 10s  infinite ;   
+}
+@keyframes Changeimg{
+0%{
+    background-image: url(https://1.bp.blogspot.com/-HnIcIJlKqsg/X7Fq-OLS5jI/AAAAAAAAAAw/8kEtIdSl7FoHkzNrbv9WvsglEKNBi-MxACLcBGAsYHQ/s320/main.jpg);
+    background-size: 100% 100%; 
+}
+33%{
+    background-image: url(https://1.bp.blogspot.com/-HnIcIJlKqsg/X7Fq-OLS5jI/AAAAAAAAAAw/8kEtIdSl7FoHkzNrbv9WvsglEKNBi-MxACLcBGAsYHQ/s320/main.jpg);
+    background-size: 100% 100%;
+    
+}
+66%{
+    background-image: url(https://1.bp.blogspot.com/-K0poMcjuFKM/X7Fq9FCbeHI/AAAAAAAAAAo/TiCENI0buugotvwvm2xe9TUtQhQqoGbqQCLcBGAsYHQ/s320/main2.jpg);
+    background-size: 100% 100%;
+}
+100%{
+    background-image: url(https://1.bp.blogspot.com/-D72pxlWalR4/X7Fq960g-7I/AAAAAAAAAAs/P24vazuXvLEhvqttx4fBGiFCbWzNq3-sgCLcBGAsYHQ/s320/main3.jpg);
+    background-size: 100% 100%;
+}
+}
+main a img{
+width: 50px;
+padding: 10px;
+}
+main a img:hover{
+width: 100px;
+}
+@media only screen and (max-width: 500px) and (min-width: 280px){
+.video{
+    height:180px;
+}
+}
